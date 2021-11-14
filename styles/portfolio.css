@@ -27,7 +27,7 @@ p {
 .hero {
   background-image: url(/src/images/background.jpg);
   text-align: center;
-  padding: 160px 20px;
+  padding: 50px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -55,4 +55,9 @@ p {
 .container img {
   max-width: 100%;
   border-radius: 5px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 70px;
+  }
 }
