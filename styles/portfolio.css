@@ -41,9 +41,26 @@ p {
   font-size: 24px;
   line-height: 2;
 }
+.about-section {
+  padding: 50px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+}
+.about-section h2 {
+  font-size: 64px;
+  line-height: 75px;
+}
+.about-section p {
+  font-size: 15px;
+  line-height: 30px;
+}
+.about-section img {
+  width: 450px;
+}
 .btn-branding {
   background: var(--branding-color);
-  border-radius: 4px;
+  border-radius: 50px;
   color: white;
   font-size: 18px;
   line-height: 27px;
@@ -59,5 +76,9 @@ p {
 @media (max-width: 960px) {
   h1 {
     font-size: 70px;
+  }
+  .about-section {
+    text-align: center;
+    padding-top: 0px;
   }
 }
