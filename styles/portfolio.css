@@ -58,6 +58,9 @@ p {
 .about-section img {
   width: 450px;
 }
+.contact-content {
+  text-align: center;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 50px;
