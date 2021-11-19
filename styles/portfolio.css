@@ -21,6 +21,9 @@ h6 {
 h1 {
   font-size: 96px;
 }
+h4 {
+  font-size: 48px;
+}
 p {
   font-weight: normal;
 }
@@ -71,7 +74,7 @@ p {
   padding: 15px 30px;
 }
 .homepage-para {
-  font-size: 23px;
+  font-size: 30px;
 }
 .container img {
   max-width: 100%;
@@ -83,9 +86,43 @@ p {
 .navbar-brand {
   margin-left: 20px;
 }
+footer .contact-box {
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-image: url(/src/images/background.jpg);
+}
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: rgb(73, 73, 73);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 70px;
+  }
+  h4 {
+    font-size: 26px;
   }
   .about-section {
     text-align: center;
