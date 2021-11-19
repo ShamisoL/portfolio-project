@@ -57,6 +57,7 @@ p {
 }
 .about-section img {
   width: 450px;
+  border-radius: 50px !important;
 }
 .contact-content {
   text-align: center;
@@ -75,6 +76,12 @@ p {
 .container img {
   max-width: 100%;
   border-radius: 5px;
+}
+.active {
+  color: var(--branding-color) !important;
+}
+.navbar-brand {
+  margin-left: 20px;
 }
 @media (max-width: 960px) {
   h1 {
