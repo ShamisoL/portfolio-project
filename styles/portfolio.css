@@ -21,7 +21,7 @@ h6 {
 h1 {
   font-size: 96px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
@@ -86,6 +86,9 @@ p {
 .navbar-brand {
   margin-left: 20px;
 }
+.nav-link {
+  text-align: right !important;
+}
 footer .contact-box {
   padding: 20px 50px;
   border-radius: 10px;
@@ -116,12 +119,15 @@ footer .social-links a:hover {
   color: var(--secondary-color);
   background: var(--branding-color);
 }
+footer .open-source {
+  font-size: 10px;
+}
 
 @media (max-width: 960px) {
   h1 {
     font-size: 70px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
   .about-section {
